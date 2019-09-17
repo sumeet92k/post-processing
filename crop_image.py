@@ -1,8 +1,15 @@
 # -*- coding: utf-8 -*-
 #! /usr/bin/python3
-# final fit result: CROPS IMAGES WITH A TRANSPARENT BACKGROUND
-# RESULTS: CROPS IMAGES WITH A TRANSPARENT BACKGROUND
-# RESULTS FOR: CROPS IMAGES WITH A TRANSPARENT BACKGROUND
+# FINAL RESULT: CROPS IMAGES WITH A TRANSPARENT BACKGROUND
+# Copyright (c) 2019, sumeet92k
+# All rights reserved. Please read the "license.txt" for license terms.
+# Developer: Sumeet Khanna
+# Contact Info: https://github.com/sumeet92k
+
+"""
+if arg[1] = filename specified, then crops only this filename
+Otherwise, crops all images in the given folder
+"""
 
 import os
 import glob
