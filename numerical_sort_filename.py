@@ -12,5 +12,5 @@ def numericalSort(value):
     parts[1::2] = map(int, parts[1::2])
     return parts
 
-for fname in sorted(glob.glob('time_*.h5'), key=numericalSort): # files are named as time_*.h5
+for fname in sorted(glob.glob('time_*.h5'), key=numericalSort): # files are named as time_*.h5 
 	print(fname)
